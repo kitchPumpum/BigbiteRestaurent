@@ -6,6 +6,8 @@ AnyOne who wants to start working on this project, please clone the Repository.
 
 Steps to clone the Repo
 
+For the Frontend of the application
+
 1. open the command terminal.
 2. write command "git clone https://github.com/jagajastic/bigbiterestaurant.git"
 3. then to go inside that folder write command "cd bigbiterestaurant"
