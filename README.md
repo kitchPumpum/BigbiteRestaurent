@@ -19,3 +19,9 @@ steps to pull from Repo
 2. write command "git pull origin main"
 3. finally open in VS Code with command "code ."
 
+cd into frontend folder 
+then run: 
+`npm install` 
+then run: 
+`ng serve`
+
