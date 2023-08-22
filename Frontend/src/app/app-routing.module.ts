@@ -7,7 +7,8 @@ import { OrderOnlineComponent } from './order-online/order-online.component';
 import { AppComponent } from './app.component';
 
 import { LoginComponent } from './login/login.component';
-import { BodyComponent } from './body/body.component';
+import { ContactComponent } from './contact/contact.component';
+import { SingupComponent } from './singup/singup.component';
 
 const routes: Routes = [
   {
@@ -24,11 +25,20 @@ const routes: Routes = [
   },
 
   {  path: 'order-online', component: OrderOnlineComponent },
-    
+
   {
     path: 'login',
     component: LoginComponent
 
+  },
+  {
+    path: 'signup',
+    component: SingupComponent
+
+  },
+  {
+    path: 'contact-us',
+    component: ContactComponent
   }
 ];
 
