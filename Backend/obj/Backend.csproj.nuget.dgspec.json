@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Faqid\\Desktop\\IT\\BigBiteRestaurant\\bigbiterestaurant\\Backend\\Backend.csproj": {}
+    "C:\\Users\\mahey\\bigbiterestaurant\\Backend\\Backend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Faqid\\Desktop\\IT\\BigBiteRestaurant\\bigbiterestaurant\\Backend\\Backend.csproj": {
+    "C:\\Users\\mahey\\bigbiterestaurant\\Backend\\Backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Faqid\\Desktop\\IT\\BigBiteRestaurant\\bigbiterestaurant\\Backend\\Backend.csproj",
+        "projectUniqueName": "C:\\Users\\mahey\\bigbiterestaurant\\Backend\\Backend.csproj",
         "projectName": "Backend",
-        "projectPath": "C:\\Users\\Faqid\\Desktop\\IT\\BigBiteRestaurant\\bigbiterestaurant\\Backend\\Backend.csproj",
-        "packagesPath": "C:\\Users\\Faqid\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Faqid\\Desktop\\IT\\BigBiteRestaurant\\bigbiterestaurant\\Backend\\obj\\",
+        "projectPath": "C:\\Users\\mahey\\bigbiterestaurant\\Backend\\Backend.csproj",
+        "packagesPath": "C:\\Users\\mahey\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mahey\\bigbiterestaurant\\Backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Faqid\\AppData\\Roaming\\NuGet\\NuGet.Config",
