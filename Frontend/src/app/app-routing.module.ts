@@ -4,6 +4,7 @@ import { CartComponent } from './cart/cart.component';
 import { ReservationComponent } from './reservation/reservation.component';
 import { HomeComponent } from './home/home.component';
 import { OrderOnlineComponent } from './order-online/order-online.component';
+import { AppComponent } from './app.component';
 
 
 const routes: Routes = [
@@ -19,14 +20,12 @@ const routes: Routes = [
     path: 'reservation',
     component: ReservationComponent
   },
-  {
-    path: '',
-    component: HomeComponent
-  },
+
 
   {  path: 'order-online', component: OrderOnlineComponent },
 
  
+    
 ];
 
 @NgModule({
