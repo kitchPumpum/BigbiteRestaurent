@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dM2Lbk5ZWQK40MbG+Fr8qXkt/HTQEABzRtCDiyY8bY8o9r3GaJ3ng17YR1mPcHXqYOedGRBGy1FjbCEAqiF0dQ==",
+  "dgSpecHash": "Hb00sPC9U1VcUhq2B05eJ48i6vTqJ4FK1/7aemBEa9zWEGagZrC13Mop6MCfbCbhG3AV9J5VBS/bHJP150IEXw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mahey\\Documents\\bigbiterestaurant\\Backend\\Backend\\Backend.csproj",
+  "projectFilePath": "C:\\Users\\mahey\\bigbiterestaurant\\Backend\\Backend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mahey\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\mahey\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
