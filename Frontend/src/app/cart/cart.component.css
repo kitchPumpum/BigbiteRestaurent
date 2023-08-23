@@ -1,34 +1,8 @@
-h1{
-  text-align: center; 
-  text-decoration: underline; 
-  margin: 0px 100px 50px 100px; 
-  background-color: rgb(243, 200, 200); 
-  padding-bottom: 2%;
+
+p{
+  text-align: right;
+  font-family: arial, sans-serif;
+  font-size: larger;
+  padding-right: 400px;
+  padding-top: 30px;
 }
-  table {
-    font-family: arial, sans-serif;
-    
-    width: 100%;
-  }
-  
-  td, th {
-    border: 1px solid black;
-    text-align: center;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    
-  }
-  
-body {
-
- 
-  background-color: cornsilk;
-  }
-
-  p{
-    text-align: right;
-    font-family: arial, sans-serif;
-    font-size: larger;
-    padding-right: 400px;
-    padding-top: 30px;
-  }
