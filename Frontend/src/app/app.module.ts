@@ -14,6 +14,7 @@ import { HeaderComponent } from './header/header.component';
 import { BodyComponent } from './body/body.component';
 import { FooterComponent } from './footer/footer.component';
 import { SingupComponent } from './singup/singup.component';
+import { AboutUsComponent } from './about-us/about-us.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { SingupComponent } from './singup/singup.component';
     HeaderComponent,
     BodyComponent,
     FooterComponent,
-    SingupComponent
+    SingupComponent,
+    AboutUsComponent
   ],
   imports: [
     BrowserModule,

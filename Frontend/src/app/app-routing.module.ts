@@ -9,6 +9,8 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { ContactComponent } from './contact/contact.component';
 import { SingupComponent } from './singup/singup.component';
+import { AboutUsComponent } from './about-us/about-us.component';
+
 
 const routes: Routes = [
   {
@@ -39,7 +41,11 @@ const routes: Routes = [
   {
     path: 'contact-us',
     component: ContactComponent
-  }
+  },
+   { 
+    path: 'about-us',
+    component: AboutUsComponent
+   }
 ];
 
 @NgModule({
