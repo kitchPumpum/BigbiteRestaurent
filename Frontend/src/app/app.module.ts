@@ -15,6 +15,9 @@ import { BodyComponent } from './body/body.component';
 import { FooterComponent } from './footer/footer.component';
 import { SingupComponent } from './singup/singup.component';
 import { AboutUsComponent } from './about-us/about-us.component';
+import { SalesdashboardComponent } from './salesdashboard/salesdashboard.component';
+import { CustomerdashboardComponent } from './customerdashboard/customerdashboard.component';
+import { ReservationdashboardComponent } from './reservationdashboard/reservationdashboard.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +32,10 @@ import { AboutUsComponent } from './about-us/about-us.component';
     BodyComponent,
     FooterComponent,
     SingupComponent,
-    AboutUsComponent
+    AboutUsComponent,
+    SalesdashboardComponent,
+    CustomerdashboardComponent,
+    ReservationdashboardComponent
   ],
   imports: [
     BrowserModule,
