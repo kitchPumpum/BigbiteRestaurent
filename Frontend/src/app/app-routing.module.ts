@@ -13,6 +13,7 @@ import { AboutUsComponent } from './about-us/about-us.component';
 import { SalesdashboardComponent } from './salesdashboard/salesdashboard.component';
 import { CustomerdashboardComponent } from './customerdashboard/customerdashboard.component';
 import { ReservationdashboardComponent } from './reservationdashboard/reservationdashboard.component';
+import { MyAccountComponent } from './my-account/my-account.component';
 
 
 
@@ -61,6 +62,10 @@ const routes: Routes = [
    {
     path: 'reservation-dashboard',
     component: ReservationdashboardComponent
+   },
+   {
+    path: 'my-account',
+    component: MyAccountComponent
    }
 ];
 
