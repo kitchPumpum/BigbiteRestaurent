@@ -22,6 +22,7 @@ import { AdmindashboardComponent } from './admindashboard/admindashboard.compone
 import { AdminLandingComponent } from './admin-landing/admin-landing.component';
 import { CheckoutComponent } from './checkout/checkout.component';
 import { MyAccountComponent } from './my-account/my-account.component';
+import { ItemdetailsComponent } from './itemdetails/itemdetails.component';
 
 @NgModule({
   declarations: [

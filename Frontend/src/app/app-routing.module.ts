@@ -19,6 +19,7 @@ import { CheckoutComponent } from './checkout/checkout.component';
 import { MyAccountComponent } from './my-account/my-account.component';
 import { OrderconfirmationComponent } from './orderconfirmation/orderconfirmation.component';
 
+import { ItemdetailsComponent } from './itemdetails/itemdetails.component';
 
 
 const routes: Routes = [
