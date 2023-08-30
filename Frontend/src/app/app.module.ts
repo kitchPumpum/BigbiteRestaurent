@@ -41,7 +41,7 @@ import { MyAccountComponent } from './my-account/my-account.component';
     CustomerdashboardComponent,
     ReservationdashboardComponent,
     AdmindashboardComponent,
-    AdminLandingComponent
+    AdminLandingComponent,
     CheckoutComponent,
     MyAccountComponent,
   ],
