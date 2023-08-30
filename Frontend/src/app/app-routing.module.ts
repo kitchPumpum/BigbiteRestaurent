@@ -13,6 +13,8 @@ import { AboutUsComponent } from './about-us/about-us.component';
 import { SalesdashboardComponent } from './salesdashboard/salesdashboard.component';
 import { CustomerdashboardComponent } from './customerdashboard/customerdashboard.component';
 import { ReservationdashboardComponent } from './reservationdashboard/reservationdashboard.component';
+import { AdmindashboardComponent } from './admindashboard/admindashboard.component';
+import { AdminLandingComponent } from './admin-landing/admin-landing.component';
 
 
 
@@ -51,17 +53,15 @@ const routes: Routes = [
     component: AboutUsComponent
    },
    {
-    path: 'sales-dashboard',
-    component: SalesdashboardComponent
-   },
-   {
-    path: 'customer-dashboard',
-    component: CustomerdashboardComponent
-   },
-   {
-    path: 'reservation-dashboard',
-    component: ReservationdashboardComponent
-   }
+    path: 'admin',
+    component: AdmindashboardComponent,
+    children: [
+      { path: '', component: AdminLandingComponent }, // Default route
+      { path: 'customer-dashboard', component: CustomerdashboardComponent },
+      { path: 'sales-dashboard', component: SalesdashboardComponent },
+      { path: 'reservation-dashboard', component: ReservationdashboardComponent },
+    ],
+  },
 ];
 
 @NgModule({

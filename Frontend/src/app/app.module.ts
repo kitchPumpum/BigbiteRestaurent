@@ -18,6 +18,8 @@ import { AboutUsComponent } from './about-us/about-us.component';
 import { SalesdashboardComponent } from './salesdashboard/salesdashboard.component';
 import { CustomerdashboardComponent } from './customerdashboard/customerdashboard.component';
 import { ReservationdashboardComponent } from './reservationdashboard/reservationdashboard.component';
+import { AdmindashboardComponent } from './admindashboard/admindashboard.component';
+import { AdminLandingComponent } from './admin-landing/admin-landing.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +37,9 @@ import { ReservationdashboardComponent } from './reservationdashboard/reservatio
     AboutUsComponent,
     SalesdashboardComponent,
     CustomerdashboardComponent,
-    ReservationdashboardComponent
+    ReservationdashboardComponent,
+    AdmindashboardComponent,
+    AdminLandingComponent
   ],
   imports: [
     BrowserModule,
