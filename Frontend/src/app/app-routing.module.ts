@@ -14,6 +14,7 @@ import { SalesdashboardComponent } from './salesdashboard/salesdashboard.compone
 import { CustomerdashboardComponent } from './customerdashboard/customerdashboard.component';
 import { ReservationdashboardComponent } from './reservationdashboard/reservationdashboard.component';
 import { MyAccountComponent } from './my-account/my-account.component';
+import { OrderconfirmationComponent } from './orderconfirmation/orderconfirmation.component';
 
 
 
@@ -66,6 +67,10 @@ const routes: Routes = [
    {
     path: 'my-account',
     component: MyAccountComponent
+   },
+   {
+    path: 'order-confirmation',
+    component: OrderconfirmationComponent
    }
 ];
 
