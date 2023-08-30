@@ -9,7 +9,7 @@
 }
 
 .sales-box {
-  background-color: #f2f2f2;
+  background-color: #81fbfb;
   padding: 20px;
   border: 1px solid #ccc;
   text-align: center;
@@ -26,7 +26,7 @@
   margin: 0;
   font-size: 24px;
   font-weight: bold;
-  color: #009688;
+  color: #1e00fe;
 }
 
 .sales-selection {
@@ -59,7 +59,7 @@ th, td {
 }
 
 th {
-  background-color: #f2f2f2;
+  background-color: #81fbfb;
   font-weight: bold;
 }
 
