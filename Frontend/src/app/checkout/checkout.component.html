@@ -1,8 +1,7 @@
-<p>checkout works!</p>
 <div class="container mt-5 pt-5 d-flex justify-content-center" >
     <div class="col-md-7 col-lg-8">
         <h4 class="mb-3">Billing address</h4>
-        <form class="needs-validation" novalidate="">
+        <div class="needs-validation" novalidate="">
           <div class="row g-3">
             <div class="col-sm-6">
               <label for="firstName" class="form-label">First name</label>
@@ -163,13 +162,13 @@
     
           <hr class="my-4">
     
-          <button (click)="placeOrder()" class="w-100 btn btn-primary btn-lg"   href="#" routerLink="/checkout" routerLinkActive="active"> Checkout</button>
+          <a  class="w-100 btn btn-primary btn-lg" routerLink="/order-confirmation" routerLinkActive="active"  type="button"> Checkout</a>
     
           <!--Success message container-->
           <div *ngf="showSuccessMessage" class="alert alert-suceess mt-3">
             Your order was successfully placed!
           </div>
-        </form>
+        </div>
       </div>
       </div>
     
