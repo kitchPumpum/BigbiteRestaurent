@@ -15,6 +15,7 @@ import { BodyComponent } from './body/body.component';
 import { FooterComponent } from './footer/footer.component';
 import { SingupComponent } from './singup/singup.component';
 import { AboutUsComponent } from './about-us/about-us.component';
+import { ItemdetailsComponent } from './itemdetails/itemdetails.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { AboutUsComponent } from './about-us/about-us.component';
     BodyComponent,
     FooterComponent,
     SingupComponent,
-    AboutUsComponent
+    AboutUsComponent,
+    ItemdetailsComponent
   ],
   imports: [
     BrowserModule,
