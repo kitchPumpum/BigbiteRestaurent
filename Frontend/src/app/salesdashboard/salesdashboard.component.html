@@ -1,0 +1,57 @@
+<div class="salesdashboard-container">
+  <h2>Sales Dashboard</h2>
+
+  <div class="sales-figures">
+    <div class="sales-box">
+      <h3>Total Orders</h3>
+      <p>14</p>
+    </div>
+    <div class="sales-box">
+      <h3>Total Sales Amount</h3>
+      <p>$1,426.32</p>
+    </div>
+    <div class="sales-box">
+      <h3>Orders in Progress</h3>
+      <p>4</p>
+    </div>
+  </div>
+
+  <div class="sales-selection">
+    <label for="salesInterval">View Sales:</label>
+    <select id="salesInterval">
+      <option value="daily">Daily</option>
+      <option value="weekly">Weekly</option>
+      <option value="monthly">Monthly</option>
+    </select>
+  </div>
+  <div class="search-boxes">
+    <input type="text" placeholder="Search by Order ID, User ID or Ordered Items">
+  </div>
+  <h3>Orders for the Day</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Order ID</th>
+        <th>Date & Time</th>
+        <th>User ID</th>
+        <th>Ordered Items</th>
+        <th>Total Amount</th>
+        <th>Special Instructions</th>
+        <th>Complete</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>5464</td>
+        <td>12/05/20223 17:05:04</td>
+        <td>1284</td>
+        <td>Mozarella Sticks x2, Creamy Alfredo x1, T-Bone Steak x1, Mango Pineapple Lemonade x2</td>
+        <td>$74.23</td>
+        <td>none</td>
+        <td>
+          <input type="checkbox">
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

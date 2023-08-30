@@ -15,6 +15,13 @@ import { BodyComponent } from './body/body.component';
 import { FooterComponent } from './footer/footer.component';
 import { SingupComponent } from './singup/singup.component';
 import { AboutUsComponent } from './about-us/about-us.component';
+import { SalesdashboardComponent } from './salesdashboard/salesdashboard.component';
+import { CustomerdashboardComponent } from './customerdashboard/customerdashboard.component';
+import { ReservationdashboardComponent } from './reservationdashboard/reservationdashboard.component';
+import { AdmindashboardComponent } from './admindashboard/admindashboard.component';
+import { AdminLandingComponent } from './admin-landing/admin-landing.component';
+import { CheckoutComponent } from './checkout/checkout.component';
+import { MyAccountComponent } from './my-account/my-account.component';
 import { ItemdetailsComponent } from './itemdetails/itemdetails.component';
 
 @NgModule({
@@ -31,7 +38,13 @@ import { ItemdetailsComponent } from './itemdetails/itemdetails.component';
     FooterComponent,
     SingupComponent,
     AboutUsComponent,
-    ItemdetailsComponent
+    SalesdashboardComponent,
+    CustomerdashboardComponent,
+    ReservationdashboardComponent,
+    AdmindashboardComponent,
+    AdminLandingComponent,
+    CheckoutComponent,
+    MyAccountComponent,
   ],
   imports: [
     BrowserModule,

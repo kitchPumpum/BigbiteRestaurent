@@ -1,0 +1,59 @@
+<div class="reservationdashboard-container">
+    <h2>Reservation Dashboard</h2>
+  
+    <div class="reservation-figures">
+      <div class="reservation-box">
+        <h3>Number of Reservations Today</h3>
+        <p>16</p>
+      </div>
+      <div class="reservation-box">
+        <h3>Number of Reservations This Week</h3>
+        <p>84</p>
+      </div>
+      <div class="reservation-box">
+        <h3>Next Reservation At</h3>
+        <p>16:45:00</p>
+      </div>
+    </div>
+
+    <div class="reservation-selection">
+        <label for="reservationInterval">View Reservations:</label>
+        <select id="reservationInterval">
+          <option value="daily">Daily</option>
+          <option value="weekly">Weekly</option>
+          <option value="monthly">Monthly</option>
+        </select>
+
+    <div class="search-boxes">
+        <input type="text" placeholder="Search by Customer ID, Name, Number, Email or Time">
+      </div>
+
+    <h3>Today's Reservations</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Customer ID</th>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Email</th>
+          <th>Phone</th>
+          <th>Reservation Date and Time</th>
+          <th>Number of People</th>
+          <th>Special Notes</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1245</td>
+          <td>John</td>
+          <td>Doe</td>
+          <td>johndoe@example.com</td>
+          <td>1234567890</td>
+          <td>08/12/2023 16:45:00</td>
+          <td>6</td>
+          <td>Gluten Free</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  
