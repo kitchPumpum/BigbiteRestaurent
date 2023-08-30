@@ -9,7 +9,7 @@
   }
   
   .customer-box {
-    background-color: #f2f2f2;
+    background-color: #81fbfb;
     padding: 20px;
     border: 1px solid #ccc;
     text-align: center;
@@ -19,14 +19,14 @@
   
   .customer-box h3 {
     margin: 0;
-    color: #333;
+    color: #000000;
   }
   
   .customer-box p {
     margin: 0;
     font-size: 24px;
     font-weight: bold;
-    color: #009688;
+    color: #1e00fe;
   }
   
   .customer-selection {
@@ -59,7 +59,7 @@
   }
   
   th {
-    background-color: #f2f2f2;
+    background-color: #81fbfb;
     font-weight: bold;
   }
   

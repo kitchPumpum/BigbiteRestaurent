@@ -15,6 +15,8 @@ import { CustomerdashboardComponent } from './customerdashboard/customerdashboar
 import { ReservationdashboardComponent } from './reservationdashboard/reservationdashboard.component';
 import { CheckoutComponent } from './checkout/checkout.component';
 
+import { MyAccountComponent } from './my-account/my-account.component';
+import { OrderconfirmationComponent } from './orderconfirmation/orderconfirmation.component';
 
 
 
@@ -67,9 +69,16 @@ const routes: Routes = [
 
    {path:'checkout',
    component:CheckoutComponent
-  }
+  },
   
-  
+   {
+    path: 'my-account',
+    component: MyAccountComponent
+   },
+   {
+    path: 'order-confirmation',
+    component: OrderconfirmationComponent
+   }
 ];
 
 @NgModule({

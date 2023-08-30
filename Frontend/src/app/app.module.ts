@@ -19,7 +19,7 @@ import { SalesdashboardComponent } from './salesdashboard/salesdashboard.compone
 import { CustomerdashboardComponent } from './customerdashboard/customerdashboard.component';
 import { ReservationdashboardComponent } from './reservationdashboard/reservationdashboard.component';
 import { CheckoutComponent } from './checkout/checkout.component';
-
+import { MyAccountComponent } from './my-account/my-account.component';
 
 @NgModule({
   declarations: [
@@ -38,8 +38,8 @@ import { CheckoutComponent } from './checkout/checkout.component';
     SalesdashboardComponent,
     CustomerdashboardComponent,
     ReservationdashboardComponent,
-    CheckoutComponent
-    
+    CheckoutComponent,
+    MyAccountComponent,
   ],
   imports: [
     BrowserModule,
