@@ -15,6 +15,9 @@ import { CustomerdashboardComponent } from './customerdashboard/customerdashboar
 import { ReservationdashboardComponent } from './reservationdashboard/reservationdashboard.component';
 import { AdmindashboardComponent } from './admindashboard/admindashboard.component';
 import { AdminLandingComponent } from './admin-landing/admin-landing.component';
+import { CheckoutComponent } from './checkout/checkout.component';
+import { MyAccountComponent } from './my-account/my-account.component';
+import { OrderconfirmationComponent } from './orderconfirmation/orderconfirmation.component';
 
 
 
@@ -62,6 +65,20 @@ const routes: Routes = [
       { path: 'reservation-dashboard', component: ReservationdashboardComponent },
     ],
   },
+
+
+   {path:'checkout',
+   component:CheckoutComponent
+  },
+  
+   {
+    path: 'my-account',
+    component: MyAccountComponent
+   },
+   {
+    path: 'order-confirmation',
+    component: OrderconfirmationComponent
+   }
 ];
 
 @NgModule({

@@ -20,6 +20,8 @@ import { CustomerdashboardComponent } from './customerdashboard/customerdashboar
 import { ReservationdashboardComponent } from './reservationdashboard/reservationdashboard.component';
 import { AdmindashboardComponent } from './admindashboard/admindashboard.component';
 import { AdminLandingComponent } from './admin-landing/admin-landing.component';
+import { CheckoutComponent } from './checkout/checkout.component';
+import { MyAccountComponent } from './my-account/my-account.component';
 
 @NgModule({
   declarations: [
@@ -40,6 +42,8 @@ import { AdminLandingComponent } from './admin-landing/admin-landing.component';
     ReservationdashboardComponent,
     AdmindashboardComponent,
     AdminLandingComponent
+    CheckoutComponent,
+    MyAccountComponent,
   ],
   imports: [
     BrowserModule,
