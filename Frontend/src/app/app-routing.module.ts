@@ -18,6 +18,7 @@ import { AdminLandingComponent } from './admin-landing/admin-landing.component';
 import { CheckoutComponent } from './checkout/checkout.component';
 import { MyAccountComponent } from './my-account/my-account.component';
 import { OrderconfirmationComponent } from './orderconfirmation/orderconfirmation.component';
+import { OrderhistoryComponent } from './orderhistory/orderhistory.component';
 
 import { ItemdetailsComponent } from './itemdetails/itemdetails.component';
 
@@ -79,6 +80,10 @@ const routes: Routes = [
    {
     path: 'order-confirmation',
     component: OrderconfirmationComponent
+   },
+   {
+    path: 'orderhistory',
+    component: OrderhistoryComponent
    }
 ];
 

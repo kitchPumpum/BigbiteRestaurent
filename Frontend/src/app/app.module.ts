@@ -23,6 +23,7 @@ import { AdminLandingComponent } from './admin-landing/admin-landing.component';
 import { CheckoutComponent } from './checkout/checkout.component';
 import { MyAccountComponent } from './my-account/my-account.component';
 import { ItemdetailsComponent } from './itemdetails/itemdetails.component';
+import { OrderhistoryComponent } from './orderhistory/orderhistory.component';
 
 @NgModule({
   declarations: [
@@ -45,6 +46,7 @@ import { ItemdetailsComponent } from './itemdetails/itemdetails.component';
     AdminLandingComponent,
     CheckoutComponent,
     MyAccountComponent,
+    OrderhistoryComponent,
   ],
   imports: [
     BrowserModule,
