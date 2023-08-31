@@ -38,6 +38,7 @@ const routes: Routes = [
   },
 
   {  path: 'order-online', component: OrderOnlineComponent },
+  { path: 'itemdetails', component: ItemdetailsComponent},
 
   {
     path: 'login',

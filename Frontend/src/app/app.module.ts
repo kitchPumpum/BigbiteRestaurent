@@ -47,6 +47,7 @@ import { OrderhistoryComponent } from './orderhistory/orderhistory.component';
     CheckoutComponent,
     MyAccountComponent,
     OrderhistoryComponent,
+    ItemdetailsComponent
   ],
   imports: [
     BrowserModule,
