@@ -1,51 +1,65 @@
-<section>
+<section class="vh-100" style="background-color: #c9c2f8;">
+
     <div class="container">
-        <div class="row d-flex justify-content-center align-items-center h-100">
-    
-            <h1 style="text-align: center; padding-bottom: 10px;">Shopping Cart </h1>
-        </div>
-    
-        <div class="w3-container">
-    
-            <table>
+     
+        <h1 class="fw-bold mb-0 text-black text-decoration-underline" style="text-align: center; padding-top: 15px; padding-bottom: 15px;" >Shopping Cart </h1>
+
+    <div class="col mb-3 pt-5">
+
+        <table class="table">
+            <thead class="fs-3 fw-bold">
+              <tr>
+                <th>Menu Items</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>Remove Item</th>
+              </tr>
+            </thead>
+            <tbody>
                 <tr>
-                    <th class="small text-muted mb-4 pb-2" style="min-width: 300px;">Order</th>
-                    <th class="small text-muted mb-4 pb-2" style="min-width: 300px;">Quantity</th>
-                    <th class="small text-muted mb-4 pb-2" style="min-width: 300px;">Price</th>
-                    <th class="small text-muted mb-4 pb-2" style="min-width: 120px;">Remove Order</th>
-    
+                  <td>First Item</td>
+                  <td><input type="number" value="1"></td>
+                  <td>$30.00</td>
+                  <td><img src="./assets/binicon.jpg" width="50px" height="50px"></td>
                 </tr>
-    
-    
                 <tr>
-                    <td class="small text-muted mb-4 pb-2" style="min-width: 300px;">Order name</td>
-                    <td class="small text-muted mb-4 pb-2" style="min-width: 300px;"><input type="number" value="1">
-                    </td>
-                    <td class="small text-muted mb-4 pb-2" style="min-width: 300px;">$30.00</td>
-                    <td class="small text-muted mb-4 pb-2" style="min-width: 250px;"><img src="./assets/Cross Delete.png"
-                            width="50px" height="50px"></td>
+                  <td>Second Item</td>
+                  <td><input type="number" value="1"></td>
+                  <td>$10.00</td>
+                  <td><img src="./assets/binicon.jpg" width="50px" height="50px"></td>
                 </tr>
+                  
+            </tbody>
+
+          </table>
     
-                <tr>
-                    <td class="small text-muted mb-4 pb-2" style="min-width: 300px;">Order name2</td>
-                    <td class="small text-muted mb-4 pb-2" style="min-width: 300px;"><input type="number" value="1">
-                    </td>
-                    <td class="small text-muted mb-4 pb-2" style="min-width: 300px;">$10.00</td>
-                    <td class="small text-muted mb-4 pb-2" style="min-width: 250px;"><img src="./assets/Cross Delete.png"
-                            width="50px" height="50px"></td>
-                </tr>
-    
-    
-            </table>
-    
+          </div>
+          <div>
+            <div class="card">
+                <div class="d-flex flex-column align-items-between">
+                    <div>
+                <p class="fs-4 ">Order total: </p>
+              </div>
+                </div>
+                </div>
+          </div>
+          <div class="d-flex flex-column align-items-center">
+            <div class="d-flex px-5 pr-md-2 py-1">
+               <div class="pt-5 text-center ">
+                <button type="button" class="btn btn-light btn-lg me-2 "><a href="/menu" >Continue Shopping</a></button>
+                <button type="button" class="btn btn-primary btn-lg">Checkout</button>
         </div>
-        <div class="d-flex justify-content-end">
-            <p class="mb-0 me-5 d-flex align-items-center">Order total:</p>
         </div>
-    
-    </div>
-    <div class="d-flex justify-content-end">
-        <button type="button" class="btn btn-light btn-lg me-2">Continue shopping</button>
-        <button type="button" class="btn btn-primary btn-lg">Checkout</button>
+        </div>
+        
     </div>
 </section>
+
+
+
+
+
+
+
+
+
