@@ -24,6 +24,7 @@ import { CheckoutComponent } from './checkout/checkout.component';
 import { MyAccountComponent } from './my-account/my-account.component';
 import { ItemdetailsComponent } from './itemdetails/itemdetails.component';
 import { OrderhistoryComponent } from './orderhistory/orderhistory.component';
+import { MenudashboardComponent } from './menudashboard/menudashboard.component';
 
 @NgModule({
   declarations: [
@@ -47,7 +48,8 @@ import { OrderhistoryComponent } from './orderhistory/orderhistory.component';
     CheckoutComponent,
     MyAccountComponent,
     OrderhistoryComponent,
-    ItemdetailsComponent
+    ItemdetailsComponent,
+    MenudashboardComponent
   ],
   imports: [
     BrowserModule,
