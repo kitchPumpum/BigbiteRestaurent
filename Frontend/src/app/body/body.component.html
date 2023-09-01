@@ -1,13 +1,17 @@
+<div class="carousel">
+  <img *ngFor="let image of images; let i = index" [src]="image" [alt]="'Image ' + (i + 1)" [class.active]="i === currentIndex" 
+  class="d=block w-100 h-100 object-fit-cover">
+</div>
 
-<div id="carouselExampleCaptions" class="carousel slide">
+<!-- <div id="carouselExampleCaptions" class="carousel slide">
   <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
+    <button type="button" data-bs-target="carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="carousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    <button type="button" data-bs-target="carousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+    <button type="button" data-bs-target="carousel" data-bs-slide-to="6" aria-label="Slide 7"></button>
   </div>
   <div class="carousel-inner ">
     <div class="carousel-item active">
@@ -64,7 +68,7 @@
     <span class="visually-hidden">Next</span>
   </button>
 </div>
-</div>
+</div> -->
 
 
 
@@ -106,11 +110,7 @@
           located at the entrance, where our skilled bartenders will craft a wide selection of delicious cocktails. Our menu features 
           a variety of classic specialties with a contemporary twist, all crafted with the freshest and highest quality ingredients by 
           our talented chefs. From delectable pasta dishes to succulent seafood and perfectly cooked meats, we have something to 
-          please every palate. Whether you're celebrating a special occasion or just looking for a memorable dining experience, 
-          our restaurant offers a luxurious and inviting setting that's perfect for creating unforgettable memories. 
-          Indulge your senses with our exquisite food and drink, and soak up the ambiance of our stunning baroque surroundings. We 
-          invite you to join us for a meal and experience the perfect blend of modern luxury, delicious flavors, and unparalleled 
-          ambiance that our BiGBiTE restaurant has to offer.</p>
+          please every palate.</p>
       </div>
       <div class="col-md-5 order-md-1">
         <img src="../../assets/Images/adam-jaime.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image" 
@@ -191,3 +191,4 @@
     <!-- /END THE FEATURETTES -->
 
   </div>
+

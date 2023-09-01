@@ -1,0 +1,91 @@
+.reservationdashboard-container {
+    padding: 20px;
+}
+ 
+  .reservation-figures {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .reservation-box {
+    background-color: #81fbfb;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  .reservation-box h3 {
+    margin: 0;
+    color: #333;
+  }
+  
+  .reservation-box p {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #1e00fe;
+  }
+  
+  .reservation-selection {
+    margin-bottom: 20px;
+  }
+  
+  .reservation-selection label {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .reservation-selection select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #81fbfb;
+    font-weight: bold;
+  }
+  
+  td input[type="checkbox"] {
+    margin: 0;
+    vertical-align: middle;
+  }
+  
+  th, td, input[type="checkbox"] {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .search-boxes {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .search-boxes input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex: 1;
+    margin-right: 10px;
+    font-size: 14px;
+  }
+  /* Add more styling as needed */
+  

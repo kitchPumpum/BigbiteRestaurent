@@ -56,9 +56,19 @@
         <a routerLink="/login" type="button" class="btn btn-outline-light me-2"
           >Login</a
         >
-        <a routerLink="/signup" type="button" class="btn btn-outline-light"
+        <a routerLink="/signup" type="button" class="btn btn-outline-light me-2"
           >Sign-up</a
         >
+        <a routerLink="/profile" type="button" class="btn btn-outline-light me-2" data-bs-toggle="dropdown">
+          <i class="bi bi-person-circle" style="height:max-content">
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a class="dropdown-item" routerLink="/my-account">My Account</a></li>
+              <li><a class="dropdown-item" routerLink="/orderhistory">Order History</a></li>
+              <li><a class="dropdown-item" routerLink="/logout">Logout</a></li>
+            </ul>
+          </i>
+        </a>
+        
       </div>
     </div>
   </div>

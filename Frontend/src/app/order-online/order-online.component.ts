@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 
 @Component({
@@ -7,5 +8,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./order-online.component.css']
 })
 export class OrderOnlineComponent {
+  constructor(private router: Router) {}
+
+  redirectToLink(): void {
+       this.router.navigate(['itemdetails']);
+  }
 
 }
