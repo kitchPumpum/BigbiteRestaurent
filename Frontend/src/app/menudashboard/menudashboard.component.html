@@ -1,0 +1,95 @@
+<div class="Menudashboard-container">
+    <h2>Menu Dashboard</h2>
+
+    <div class="Menu-figures">
+        <div class="Menu-box">
+            <h3>Total Menu Items</h3>
+            <p>24</p>
+        </div>
+        <div class="Menu-box">
+            <h3>Appetizers</h3>
+            <p>6</p>
+        </div>
+        <div class="Menu-box">
+            <h3>Entrees</h3>
+            <p>6</p>
+        </div>
+        <div class="Menu-box">
+            <h3>Deserts</h3>
+            <p>6</p>
+        </div>
+        <div class="Menu-box">
+            <h3>Beverages</h3>
+            <p>6</p>
+        </div>
+    </div>
+
+    <div class="Menu-selection">
+        <label for="MenuInterval">View Menu:</label>
+        <select id="MenuInterval">
+            <option value="Appetizers">Appetizers</option>
+            <option value="Entrees">Entrees</option>
+            <option value="Deserts">Deserts</option>
+            <option value="Beverages">Beverages</option>
+        </select>
+    </div>
+    <div class="search-boxes">
+        <input type="text" placeholder="Search by Item ID, Item Name or Category">
+    </div>
+    <h3>Menu Items</h3>
+    <div class="card body p-4">
+        <div class="d-flex flex-row-reverse justify-content-between align-items-right mb-2">
+            <div class="col-6 text-end">
+                <a asp-controller="Menu Items" class="btn btn-primary" style=" bottom: 2px; right: 2px;">
+                    <i class="bi bi-plus-circle"></i> Add Item
+                </a>
+            </div>
+        </div>
+
+        <table id="tblData" class="table table-bordered table-striped" style="width:100%">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                    <th>Category</th>
+                    <th>Image</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>calamari</td>
+                    <td>Tender calamari, lightly breaded and fried. Served with marinara sauce and spicy ranch.</td>
+                    <td>$12.79</td>
+                    <td>
+
+                        <div class="Menu-selection">
+
+                            <select id="Category">
+                                <option value="Appetizers">Appetizers</option>
+                                <option value="Entrees">Entrees</option>
+                                <option value="Deserts">Deserts</option>
+                                <option value="Beverages">Beverages</option>
+                            </select>
+                            <span asp-validation-for="Category" class="text-danger"></span>
+                        </div>
+                    </td>
+                    <td><input type="file" value="" style="width: 200px;"></td>
+                    <td>
+                        <div class="btn-group" role="group">
+                            <a asp-action="Edit" class="btn btn-primary mx-2">
+                                <i class="bi bi-pencil-square"></i> Edit
+                            </a>
+                            <a asp-action="Delete" class="btn btn-danger mx-2">
+                                <i class="bi bi-trash-fill"></i>Delete
+                            </a>
+                        </div>
+                    </td>
+
+                </tr>
+
+        </table>
+
+    </div>
+</div>
