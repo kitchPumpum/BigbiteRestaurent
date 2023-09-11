@@ -23,6 +23,7 @@ import { OrderhistoryComponent } from './orderhistory/orderhistory.component';
 import { ItemdetailsComponent } from './itemdetails/itemdetails.component';
 import { KitchenComponent } from './kitchen/kitchen.component';
 import { ChefaccountComponent } from './chefaccount/chefaccount.component';
+import { MenudashboardComponent } from './menudashboard/menudashboard.component';
 
 
 const routes: Routes = [
@@ -68,6 +69,8 @@ const routes: Routes = [
       { path: 'customer-dashboard', component: CustomerdashboardComponent },
       { path: 'sales-dashboard', component: SalesdashboardComponent },
       { path: 'reservation-dashboard', component: ReservationdashboardComponent },
+      { path: 'menu-dashboard', component: MenudashboardComponent },
+
     ],
   },
 

@@ -26,6 +26,7 @@ import { ItemdetailsComponent } from './itemdetails/itemdetails.component';
 import { OrderhistoryComponent } from './orderhistory/orderhistory.component';
 import { KitchenComponent } from './kitchen/kitchen.component';
 import { ChefaccountComponent } from './chefaccount/chefaccount.component';
+import { MenudashboardComponent } from './menudashboard/menudashboard.component';
 
 @NgModule({
   declarations: [
@@ -51,7 +52,8 @@ import { ChefaccountComponent } from './chefaccount/chefaccount.component';
     OrderhistoryComponent,
     ItemdetailsComponent,
     KitchenComponent,
-    ChefaccountComponent
+    ChefaccountComponent,
+    MenudashboardComponent
   ],
   imports: [
     BrowserModule,
