@@ -21,6 +21,8 @@ import { OrderconfirmationComponent } from './orderconfirmation/orderconfirmatio
 import { OrderhistoryComponent } from './orderhistory/orderhistory.component';
 
 import { ItemdetailsComponent } from './itemdetails/itemdetails.component';
+import { KitchenComponent } from './kitchen/kitchen.component';
+import { ChefaccountComponent } from './chefaccount/chefaccount.component';
 import { MenudashboardComponent } from './menudashboard/menudashboard.component';
 
 
@@ -88,6 +90,14 @@ const routes: Routes = [
    {
     path: 'orderhistory',
     component: OrderhistoryComponent
+   },
+   {
+    path: 'kitchen',
+    component: KitchenComponent
+   },
+   {
+    path: 'chefaccount',
+    component: ChefaccountComponent
    }
 ];
 
