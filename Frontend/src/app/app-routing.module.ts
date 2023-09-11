@@ -24,6 +24,7 @@ import { ItemdetailsComponent } from './itemdetails/itemdetails.component';
 import { KitchenComponent } from './kitchen/kitchen.component';
 import { ChefaccountComponent } from './chefaccount/chefaccount.component';
 import { MenudashboardComponent } from './menudashboard/menudashboard.component';
+import { EmployeeComponent } from './employee/employee.component';
 
 
 const routes: Routes = [
@@ -57,7 +58,7 @@ const routes: Routes = [
     path: 'contact-us',
     component: ContactComponent
   },
-   { 
+   {
     path: 'about-us',
     component: AboutUsComponent
    },
@@ -70,6 +71,7 @@ const routes: Routes = [
       { path: 'sales-dashboard', component: SalesdashboardComponent },
       { path: 'reservation-dashboard', component: ReservationdashboardComponent },
       { path: 'menu-dashboard', component: MenudashboardComponent },
+      { path: 'employee', component: EmployeeComponent },
 
     ],
   },
@@ -78,7 +80,7 @@ const routes: Routes = [
    {path:'checkout',
    component:CheckoutComponent
   },
-  
+
    {
     path: 'my-account',
     component: MyAccountComponent
