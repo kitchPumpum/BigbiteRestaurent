@@ -54,5 +54,29 @@ Note: The above command should be run in your PowerShell.
 - `git push origin 'name-of-your-branch'` This helps you to push the changes you have made on your machine to the online github repository.
 
 <br />
-This is not the only git command that exists, they are more! you can learn more [here](https://git-scm.com/book/en/v2)  
+This is not the only git command that exists, they are more! you can learn more [here](https://git-scm.com/book/en/v2) 
+
+## HOW THE BACKEND WAS SETUP AND CONNECTED TO DATABASE (IDE USED FOR BACKEND - VISUAL STUDIO COMMUNITY VERSION, DATABASE USED - MICROSOFT SQL SERVER MANAGEMENT STUDIO)
+-   created the Project named "Backend" with ".net core web api" with version 7 of .net in Microsoft Visual Studio
+-   created the "Model" Folder in solution explorer and created the "User.cs" class for the user model.
+-   created the "Data" folder and class named "BackendDbContext"
+-   injected the dependency of dB Context inside Program.cs file
+-   and setup the connection string by the name of "BackendConnectionString" for database connection with your own "SQL Server Name" inside "appsettings.json" file
+-   from the Tools added migration and updated database to create the "BigBiteRestaurantdb" database and "Users" table in the database in the `Microsoft SQL Server Management Studio`.
+
+
+## HOW YOU CAN SETUP BACKEND ON YOUR MACHINE
+-   go to your BigBiteResaurant Project that you cloned from Repository
+-   open the Backend.sln in Visual Studio community 2022 (Download it if you dont have it from https://visualstudio.microsoft.com/free-developer-offers/).
+-   also make sure you have set up  `MICROSOFT SQL SERVER MANAGEMENT STUDIO` on your machine
+-   you can downlaod it from https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16#download-ssms
+-   go to `appsettings.json` file and inside connection strings update the server name with your own `SQL Server Name`
+-   delete the `migrations files` if you see any file inside your backend project's `migrations folder` in solution explorer
+-   open package manager console from `tools - nuget package manager - package manager console`
+-   inside package manager console run command `Add-Migration "Migration Name"` , for exmaple  `Add-Migration FirstMigration`
+-   after that run command `Update-Database`
+-   it will create the database named `BigBIteRestaurantDb`  and the table named `user` in SQL Server management studio.  
+-   now your backend is connected with the datbase.  
+
+   
 
