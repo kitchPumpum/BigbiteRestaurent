@@ -37,9 +37,18 @@
         <a routerLink="/profile" type="button" class="btn btn-outline-light me-2" data-bs-toggle="dropdown">
           <i class="bi bi-person-circle" style="height:max-content">
             <ul class="dropdown-menu dropdown-menu-dark">
-              <li><a class="dropdown-item" routerLink="/my-account">My Account</a></li>
-              <li><a class="dropdown-item" routerLink="/orderhistory">Order History</a></li>
-              <li><a class="dropdown-item" routerLink="/logout">Logout</a></li>
+              <li><a class="dropdown-item" routerLink="/my-account">
+                <span class="bi bi-person me-3"></span>
+                <span class="font-medium">My Account</span>
+              </a></li>
+              <li><a class="dropdown-item" routerLink="/orderhistory">
+                <span class="bi bi-list-ul me-3"></span>
+                <span class="font-medium">Order History</span>
+                </a></li>
+              <li><a class="dropdown-item" routerLink="/logout">
+                <span class="bi bi-box-arrow-right me-3"></span>
+                <span class="font-medium">Logout</span>
+                </a></li>
             </ul>
           </i>
         </a>
