@@ -1,27 +1,29 @@
-<body class="d-flex align-items-center py-4">
+
+<form (ngSubmit)="onSubmit(formValue)">
+<div class="d-flex align-items-center py-4">
   <div class="container mt-5 pt-5 d-flex justify-content-center">
-    <form class="w-50 d-block">
+    <div class="w-50 d-block">
       <h1 class="h3 mb-3 fw-normal">Please Log in</h1>
 
       <div class="form-floating mb-3">
-        <input
+        <input [(ngModel)]="formValue.Email" #email="ngModel"
           type="email"
           class="form-control"
-          id="floatingInput"
-          placeholder="name@example.com"
-          fdprocessedid="40ce1w"
-        />
+          id="email" name="email"
+          placeholder="email@example.com" required ngModel [email]="true"/>
         <label for="floatingInput">Email address</label>
+        <span *ngIf="email.invalid && (email.dirty || email.touched)" class="alert" >Email is required.</span>
       </div>
       <div class="form-floating">
-        <input
-          type="password"
+        <input [(ngModel)]="formValue.Password" #password="ngModel"
+          type="password" name="password"
           class="form-control"
-          id="floatingPassword"
-          placeholder="Password"
-          fdprocessedid="3cud5y"
-        />
+          id="password" minlength="5" maxlength="12"
+          placeholder="Password" required/>
         <label for="floatingPassword">Password</label>
+        <span *ngIf="password.invalid && (password.dirty || password.touched)" class="alert" >Password is required.</span>
+        <span *ngIf="password.errors?.['minlength']">
+         Password must be at least 5 characters long. </span>
       </div>
 
       <div class="form-check text-start my-3">
@@ -29,24 +31,24 @@
           class="form-check-input"
           type="checkbox"
           value="remember-me"
-          id="flexCheckDefault"
-        />
-        <label class="form-check-label" for="flexCheckDefault">
-          Remember me
-        </label>
+          id="checkbox"/>
+        <label class="form-check-label">Remember me</label>
       </div>
       <button
         class="btn btn-primary w-100 py-3"
-        type="submit"
-        fdprocessedid="wstunzv"
-      >
-        Login
-      </button>
+        type="submit">Login</button>
       <p class="mt-5 mb-3 text-body-secondary">© 2017–2023</p>
       <p class="small-xl pt-3 text-center">
         <span class="text-muted">Not a member?</span>
         <a routerLink="/signup"> Signup</a>
       </p>
-    </form>
+    </div>
   </div>
-</body>
+</div>
+</form>
+
+
+
+
+
+<ng-toast></ng-toast>

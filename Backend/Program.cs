@@ -1,6 +1,7 @@
 using Backend.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
+using Newtonsoft.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,10 +12,18 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddDbContext<BackendDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("BackendConnectionString")));
+//builder.Services.AddDbContext<BackendDbContext>(options =>
+//    options.UseSqlServer(builder.Configuration.GetConnectionString("BackendConnectionString")));
+
+//JSON Serializer
+builder.Services.AddControllers().AddNewtonsoftJson(options =>
+options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore).AddNewtonsoftJson(
+options => options.SerializerSettings.ContractResolver = new DefaultContractResolver());
 
 var app = builder.Build();
+
+//Enable CORS
+app.UseCors(c => c.AllowAnyHeader().AllowAnyOrigin().AllowAnyMethod());
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

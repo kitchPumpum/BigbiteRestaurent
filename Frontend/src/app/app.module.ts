@@ -9,7 +9,7 @@ import { CartComponent } from './cart/cart.component';
 import { ReservationComponent } from './reservation/reservation.component';
 import { HomeComponent } from './home/home.component';
 import { OrderOnlineComponent } from './order-online/order-online.component';
-import { LoginComponent } from './login/login.component';
+
 import { HeaderComponent } from './header/header.component';
 import { BodyComponent } from './body/body.component';
 import { FooterComponent } from './footer/footer.component';
@@ -28,6 +28,12 @@ import { KitchenComponent } from './kitchen/kitchen.component';
 import { ChefaccountComponent } from './chefaccount/chefaccount.component';
 import { MenudashboardComponent } from './menudashboard/menudashboard.component';
 import { EmployeeComponent } from './employee/employee.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import {HttpClientModule} from "@angular/common/http";
+import { ToastrModule } from 'ngx-toastr';
+import { LoginComponent } from './login/login.component';
+import { NgToastModule } from 'ng-angular-popup';
+
 
 @NgModule({
   declarations: [
@@ -60,7 +66,12 @@ import { EmployeeComponent } from './employee/employee.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    FormsModule,
+    ReactiveFormsModule,
+    HttpClientModule,
+    ToastrModule.forRoot(),
+    NgToastModule
   ],
   providers: [],
   bootstrap: [AppComponent]
