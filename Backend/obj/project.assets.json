@@ -3484,23 +3484,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\hanuf\\.nuget\\packages\\": {},
+    "C:\\Users\\user\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\PROJECT\\GainAmRestaurentProject\\bigbiterestaurant\\Backend\\Backend.csproj",
+      "projectUniqueName": "C:\\Users\\user\\OneDrive\\Desktop\\bigbiterestaurant\\Backend\\Backend.csproj",
       "projectName": "Backend",
-      "projectPath": "C:\\PROJECT\\GainAmRestaurentProject\\bigbiterestaurant\\Backend\\Backend.csproj",
-      "packagesPath": "C:\\Users\\hanuf\\.nuget\\packages\\",
-      "outputPath": "C:\\PROJECT\\GainAmRestaurentProject\\bigbiterestaurant\\Backend\\obj\\",
+      "projectPath": "C:\\Users\\user\\OneDrive\\Desktop\\bigbiterestaurant\\Backend\\Backend.csproj",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\user\\OneDrive\\Desktop\\bigbiterestaurant\\Backend\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\hanuf\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3509,7 +3509,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
+        "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -3570,7 +3570,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
       }
     }
   }

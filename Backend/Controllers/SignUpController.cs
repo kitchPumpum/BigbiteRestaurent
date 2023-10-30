@@ -44,6 +44,7 @@ namespace Backend.Controllers
                     myCommand.Parameters.AddWithValue("@state", state);
                     myCommand.Parameters.AddWithValue("@zip", zip);
                     myCommand.Parameters.AddWithValue("@name", name);
+
                     myReader = myCommand.ExecuteReader();
                     table.Load(myReader);
                     if (table != null && table.Rows.Count > 0)
