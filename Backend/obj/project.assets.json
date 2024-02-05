@@ -3490,11 +3490,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\OneDrive\\Desktop\\bigbiterestaurant\\Backend\\Backend.csproj",
+      "projectUniqueName": "C:\\Users\\user\\OneDrive\\Desktop\\bigbiterestaurant actual project\\Backend\\Backend.csproj",
       "projectName": "Backend",
-      "projectPath": "C:\\Users\\user\\OneDrive\\Desktop\\bigbiterestaurant\\Backend\\Backend.csproj",
+      "projectPath": "C:\\Users\\user\\OneDrive\\Desktop\\bigbiterestaurant actual project\\Backend\\Backend.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\OneDrive\\Desktop\\bigbiterestaurant\\Backend\\obj\\",
+      "outputPath": "C:\\Users\\user\\OneDrive\\Desktop\\bigbiterestaurant actual project\\Backend\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3509,7 +3509,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -3570,7 +3570,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
